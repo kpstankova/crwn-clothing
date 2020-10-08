@@ -1,9 +1,9 @@
-import userEvent from '@testing-library/user-event'
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux';
 
-import userReducer from './user/user.reduser'
-import cartReducer from './cart/cart.reducer'
+import userReducer from './user/user.reduser';
+import cartReducer from './cart/cart.reducer';
+
 export default combineReducers({
-    user: userReducer,
-    cart: cartReducer
-})
+  user: userReducer,
+  cart: cartReducer
+});
